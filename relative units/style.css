@@ -1,0 +1,19 @@
+#b1{
+    
+    background-color:green;
+    height:100px;
+    width:100px ;
+}
+#b2{
+   height: 20px;
+    width:50%;
+  margin-left:20px;
+    background-color:yellow;
+}
+#b3{
+   
+    height: 20px;
+    width: 50px;
+  
+    background-color:red;
+}
