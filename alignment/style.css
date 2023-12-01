@@ -1,0 +1,16 @@
+h6{
+    background-color: yellow;
+    text-align:center;
+}
+button{
+    background-color: green;
+}
+
+#outer{
+    text-size:25px;
+
+}
+#inner{
+    text-size:10px;
+    
+}
