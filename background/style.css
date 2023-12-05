@@ -1,5 +1,16 @@
-#sr{
-    background-image:url(file:///C:/srinithya/css/background/dahlia-red-blossom-bloom-60597.webp);
+div{
+    height: 100vh;
+    background-image:linear-gradient(to right ,rgba(255, 38, 0, 0.288),rgba(0, 0, 255, 0.445)),
+    url(rose.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(100 100, 100px 100px, 100px 70px, 100px 100px);
+ 
+    
+
+}
+*{
+    margin: 0;
 }
     
 
