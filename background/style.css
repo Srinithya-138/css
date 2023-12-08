@@ -4,7 +4,9 @@ div{
     url(rose.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(100 100, 100px 100px, 100px 70px, 100px 100px);
+    /* clip-path: polygon( 80, 0px 80px, 80px 0px, 0px 0px); */
+    clip-path:(50% 0, 100% 50% ,50% 100%, 0 50%);
+
  
     
 
