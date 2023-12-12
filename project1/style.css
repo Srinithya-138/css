@@ -19,7 +19,7 @@
     clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
     position: relative;
  }
- .text-box{
+ .header__text-box{
     position: absolute;
     top: 40%;
     left:50%;
@@ -27,12 +27,12 @@
     text-align: center;
    
  }
- .logobox{
+ .header__logobox{
    position:absolute;
    top: 40px;
    left:40px;
  }
- .logo{
+ .header__logo{
    height: 35px;
    
  }
@@ -129,7 +129,7 @@
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
- .btn-white{
+ .btn--white{
     background-color: white;
     color: #777;
 
@@ -154,7 +154,7 @@
     transform: scaleX(1) scaleY(1.6);
     opacity: 0;
  }
- .btn-animated{
+ .btn--animated{
     animation: mobottom .5s ease-out .75s;
     animation-fill-mode: backwards;
  }
