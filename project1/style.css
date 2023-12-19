@@ -234,6 +234,7 @@
    position: relative;
    z-index: 20;
    transition: all .2s;
+   outline-offset: 1.5rem;
    /* display:inline-block; */
    
    /* background-color: green; */
@@ -242,6 +243,7 @@
    position: absolute; 
    left: 50px;
    box-shadow: 0 1.5rem 4rem rgba(black,.4);
+   
    /* border: 2px solid red;*/
 } 
 .composition-photo2{
@@ -257,6 +259,7 @@
    /* border: 2px solid yellow; */
 }
 .composition-photo1:hover{
+   outline-offset: 1.5rem solid green;
    transform: scale(1.05);
    box-shadow: 0 2.5rem 4rem rgba(black,.5);
    z-index: 20;
