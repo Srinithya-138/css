@@ -286,12 +286,12 @@
    transform: scale(.9);
 }
 
-.section-tour{
+/* .section-tour{
    background-color: #f7f7f7;
    padding: 25rem 0 50rem 0;
 }
 .card{
-    perspective: 150rem; /*we are giving this because of the rotation perspective is used for the parent and the child */
+    perspective: 150rem; /*we are giving this because of the rotation perspective is used for the parent and the child 
    -ms-perspective: 150rem;
    border-radius: 3px;
    box-shadow: 0 1.5rem 4rem rgba(black,.15);
@@ -311,7 +311,7 @@
    top: 0;
    left:0;
    width: 100%;
-    backface-visibility: hidden;/*it basically hides the back part of an element */
+    backface-visibility: hidden;/*it basically hides the back part of an element 
 }
 .cardchild-f:hover{
    transform: rotateY(-180deg);
@@ -324,4 +324,58 @@
 .cardchild-b:hover{
    transform: rotateY(0deg);
    background-image: linear-gradient(to right bottom,rgb(187, 255, 0),orange);
+} */
+
+.section-storey{
+ padding: 50rem 0;
+ background-color: #f7f7f7;
+}
+.heading-secondar{
+   /*font-size:rem;*/
+   text-transform: uppercase;
+   font-weight: 700px;
+   background-image: linear-gradient(to right,#7ed56f,#55c57a);/*this is used to style the element*/
+   display: inline-block;
+   -webkit-background-clip:text;/*if we doesnt use this trhen we cannot see the text and the color we used to display the text*/
+   color: transparent;/*this is used to see the text in green color if we doesnt use this we cansee only the black color text i.e normal text)*/
+   letter-spacing: .2rem;
+   transition: all .2s;
+}
+.heading-secondar:hover{
+   transform: skewY(2deg) skewX(15deg) scale(1.1);
+   text-shadow: .5rem 1rem 2rem rgba(black,.2);
+}
+.u-center-text{
+   text-align: center;
+   margin-bottom: 8rem;
+
+}
+
+.storey-text{
+   width: 75%;
+   margin: 0 auto;
+   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.185);
+   background-color: white;
+   border-radius:3px;
+   padding:6rem;
+   padding-left: 9rem;
+   font-size: 1.6rem;
+   /* transform: skewX(12deg); */
+   
+}
+.storey-shape{
+ 
+   width: 15rem;
+   height: 15rem;
+   margin-top:70px;
+   margin-left: 30px;
+   float: left;
+   /* background-color: orangered; */
+   shape-outside: circle(50% at 50% 50%);
+   clip-path: circle(50% at 50% 50%);
+   /* transform: translateX(rem); */
+   
+}
+.strim{
+height: 100%;
 }
